@@ -1142,6 +1142,34 @@ footer {
         background: rgba(172, 172, 172, 0.438);
         transition: all .2s linear;
     }
+    .facebook {
+        background: #3b5998;
+    }
+    .instagram {
+        background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    }
+    .whatsapp {
+        background: rgb(112, 228, 112);
+    }
+    .twitter {
+        background: #00acee;
+    }
+    .facebook:hover {
+        background: #3b5998;
+        transform: translateY(0px);
+    }
+    .instagram:hover {
+        background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+        transform: translateY(0px);
+    }
+    .whatsapp:hover {
+        background: rgb(112, 228, 112);
+        transform: translateY(0px);
+    }
+    .twitter:hover {
+        background: #00acee;
+        transform: translateY(0px);
+    }
     /* -----Food style start---- */
     .food_images {
         margin: 0% 0%;
@@ -1474,6 +1502,34 @@ footer {
         transform: translateY(-3px);
         color: rgb(255, 255, 255);
     }
+    .facebook {
+        background: #3b5998;
+    }
+    .instagram {
+        background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    }
+    .whatsapp {
+        background: rgb(112, 228, 112);
+    }
+    .twitter {
+        background: #00acee;
+    }
+    .facebook:hover {
+        background: #3b5998;
+        transform: translateY(0px);
+    }
+    .instagram:hover {
+        background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+        transform: translateY(0px);
+    }
+    .whatsapp:hover {
+        background: rgb(112, 228, 112);
+        transform: translateY(0px);
+    }
+    .twitter:hover {
+        background: #00acee;
+        transform: translateY(0px);
+    }
     /* ------header end---------- */
     /* -----Food style start---- */
     .popular_foods {
@@ -1710,4 +1766,5 @@ footer {
         font-size: 14px;
         color: bisque;
     }
+    /* --------------Footer is end---------------- */
 }
