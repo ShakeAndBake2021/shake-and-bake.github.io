@@ -114,7 +114,7 @@ footer {
 
 .preloader {
     background-color: rgb(41, 38, 38);
-    height: 1000000vh;
+    height: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
