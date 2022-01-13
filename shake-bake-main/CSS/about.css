@@ -1,0 +1,495 @@
+* {
+    scroll-behavior: smooth;
+}
+
+section {
+    background: rgb(243, 173, 184);
+    overflow: hidden;
+}
+
+.content_header_paragraph {
+    margin-top: 50px;
+}
+
+
+/* -----------about_content_1 start--------- */
+
+.about_content_1 {
+    padding: 30px 0px 80px;
+}
+
+.choose_us {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.choose_us_container_1,
+.choose_us_container_2 {
+    display: flex;
+    overflow: hidden;
+}
+
+.choose_us_inner {
+    height: 300px;
+    width: 200px;
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid white;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.596);
+    transition: all .3s ease-in-out;
+}
+
+.choose_us_inner:hover {
+    transform: translateY(-15px);
+}
+
+.choose_us_inner h6 {
+    font-size: 16px;
+}
+
+.choose_us_inner h3 {
+    font-size: 22px;
+}
+
+
+/* -----------about_content_1 end--------- */
+
+
+/* -----------about_content_2 start--------- */
+
+
+/* /images/ds4.jpg */
+
+.about_content_2 {
+    height: 450px;
+    background-image: url(../images/ds4.jpg );
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about_content_2 span {
+    color: rgb(243, 173, 184);
+}
+
+.about_content_2 p {
+    color: white;
+    text-align: center;
+}
+
+.chef_images {
+    display: flex;
+    justify-content: center;
+}
+
+.chef {
+    height: 375px;
+    width: 315px;
+    margin: 20px;
+    transform: translateY(0px);
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.596);
+    background: rgba(70, 68, 68, 0.699);
+}
+
+.chef img {
+    height: 350px;
+}
+
+.overlay {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to top, black, transparent);
+    position: absolute;
+    bottom: 0%;
+}
+
+.chef_name,
+.chef_position {
+    text-align: center;
+    color: white;
+}
+
+.chef_parsonal_social_links {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.chef_parsonal_social_links ul {
+    display: flex;
+}
+
+.chef_parsonal_social_links li {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin: 2px;
+    text-align: center;
+    background: rgb(243, 173, 184);
+    transition: all .3s ease-in-out;
+}
+
+.chef_parsonal_social_links i {
+    transform: translateY(0px);
+    color: white;
+}
+
+.social_logo li:hover .fab {
+    color: white;
+}
+
+.facebook:hover {
+    background: #3b5998;
+    transform: translateY(-5px);
+}
+
+.instagram:hover {
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    transform: translateY(-5px);
+}
+
+.whatsapp:hover {
+    background: rgb(112, 228, 112);
+    transform: translateY(-5px);
+}
+
+.twitter:hover {
+    background: #00acee;
+    transform: translateY(-5px);
+}
+
+
+/* -----------about_content_2 end--------- */
+
+
+/* -----------about_content_3 start--------- */
+
+.about_content_3 {
+    height: 350px;
+}
+
+
+/* -----------about_content_3 end--------- */
+
+
+/* ---------------Tablets and iPads-------------- */
+
+@media(min-width:769px) and (max-width:1199px) {
+    /* -----------about_content_1 start--------- */
+    .about_content_1 {
+        padding: 30px 0px 80px;
+    }
+    .choose_us {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 60px;
+    }
+    .choose_us_container_1,
+    .choose_us_container_2 {
+        display: flex;
+        margin-top: 20px;
+    }
+    .choose_us_inner {
+        height: 300px;
+        width: 200px;
+        padding: 20px;
+        margin: 10px;
+        border: 2px solid white;
+        box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.596);
+        transition: all .3s ease-in-out;
+    }
+    .choose_us_inner:hover {
+        transform: translateY(-15px);
+    }
+    .choose_us_inner h6 {
+        font-size: 16px;
+    }
+    .choose_us_inner h3 {
+        font-size: 22px;
+    }
+    /* -----------about_content_1 end--------- */
+}
+
+
+/* ---------------Mobile phones-------------- */
+
+@media(max-width: 768px) {
+    /* -----------about_content_1 start--------- */
+    .about_content_1 {
+        padding: 30px 0px 80px;
+    }
+    .choose_us {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 60px;
+    }
+    .choose_us_container_1,
+    .choose_us_container_2 {
+        display: flex;
+        margin-top: 20px;
+    }
+    .choose_us_inner {
+        height: 300px;
+        width: 200px;
+        padding: 20px;
+        margin: 10px;
+        border: 2px solid white;
+        box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.596);
+        transition: all .3s ease-in-out;
+    }
+    .choose_us_inner:hover {
+        transform: translateY(-15px);
+    }
+    .choose_us_inner h6 {
+        font-size: 16px;
+    }
+    .choose_us_inner h3 {
+        font-size: 22px;
+    }
+    /* -----------about_content_1 end--------- */
+    /* -----------about_content_2 start--------- */
+    .about_content_2 {
+        height: 450px;
+        background-image: url(../images/ds4.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about_content_2 p {
+        text-align: center;
+        color: white;
+    }
+    .chef_images {
+        display: flex;
+        justify-content: center;
+    }
+    .chef {
+        height: 275px;
+        width: 204px;
+        margin: 0px 10px 10px;
+        transform: translateY(50px);
+        border: 2px solid wheat;
+        background: rgba(70, 68, 68, 0.699);
+    }
+    .chef img {
+        height: 225px;
+    }
+    .overlay {
+        display: flex;
+        flex-direction: column-reverse;
+        height: 100%;
+        width: 100%;
+        background-image: linear-gradient(to top, black, transparent);
+        position: absolute;
+        bottom: 0%;
+    }
+    .chef_name,
+    .chef_position {
+        text-align: center;
+        color: white;
+    }
+    .chef_parsonal_social_links {
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+        margin: 20px;
+    }
+    .chef_parsonal_social_links ul {
+        display: flex;
+    }
+    .chef_parsonal_social_links li {
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        margin: 2px;
+        text-align: center;
+        background: rgb(243, 173, 184);
+        transition: all .3s ease-in-out;
+    }
+    .chef_parsonal_social_links i {
+        transform: translateY(0px);
+        color: white;
+    }
+    .social_logo li:hover .fab {
+        color: white;
+    }
+    .facebook:hover {
+        background: #3b5998;
+        transform: translateY(-5px);
+    }
+    .instagram:hover {
+        background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+        transform: translateY(-5px);
+    }
+    .whatsapp:hover {
+        background: rgb(112, 228, 112);
+        transform: translateY(-5px);
+    }
+    .twitter:hover {
+        background: #00acee;
+        transform: translateY(-5px);
+    }
+    /* -----------about_content_2 end--------- */
+    /* -----------about_content_3 start--------- */
+    .about_content_3 {
+        height: 250px;
+    }
+    /* -----------about_content_3 end--------- */
+}
+
+
+/* ---------------Extra small Mobile phones-------------- */
+
+@media(max-width: 468px) {
+    /* -----------about_content_1 start--------- */
+    .about_content_1 {
+        padding: 30px 0px 80px;
+    }
+    .about_content_1 span {
+        display: block;
+        line-height: 50px;
+    }
+    .choose_us {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    .choose_us_container_1,
+    .choose_us_container_2 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
+    }
+    .choose_us_inner {
+        height: 240px;
+        width: 240px;
+        padding: 20px;
+        margin: 15px;
+        border: 2px solid white;
+        box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.596);
+        transition: all .3s ease-in-out;
+    }
+    .reason3 {
+        margin-top: 0px;
+    }
+    .choose_us_inner:hover {
+        transform: translateY(-15px);
+    }
+    .choose_us_inner h6 {
+        font-size: 16px;
+    }
+    .choose_us_inner h3 {
+        font-size: 22px;
+    }
+    /* -----------about_content_1 end--------- */
+    /* -----------about_content_2 start--------- */
+    .about_content_2 {
+        height: 450px;
+        background-image: url(../images/ds4.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about_content_2 span {
+        display: block;
+        line-height: 50px;
+    }
+    .about_content_2 p {
+        text-align: center;
+        color: white;
+    }
+    .chef_images {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .chef {
+        height: 275px;
+        width: 204px;
+        margin: 0px 10px 10px;
+        transform: translateY(50px);
+        border: 2px solid wheat;
+        background: rgba(70, 68, 68, 0.699);
+    }
+    .cook {
+        margin-top: 15px;
+    }
+    .chef img {
+        height: 225px;
+    }
+    .overlay {
+        display: flex;
+        flex-direction: column-reverse;
+        height: 100%;
+        width: 100%;
+        background-image: linear-gradient(to top, black, transparent);
+        position: absolute;
+        bottom: 0%;
+    }
+    .chef_name,
+    .chef_position {
+        text-align: center;
+        color: white;
+    }
+    .chef_parsonal_social_links {
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+        margin: 20px;
+    }
+    .chef_parsonal_social_links ul {
+        display: flex;
+    }
+    .chef_parsonal_social_links li {
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        margin: 2px;
+        text-align: center;
+        background: rgb(243, 173, 184);
+        transition: all .3s ease-in-out;
+    }
+    .chef_parsonal_social_links i {
+        transform: translateY(0px);
+        color: white;
+    }
+    .social_logo li:hover .fab {
+        color: white;
+    }
+    .facebook:hover {
+        background: #3b5998;
+        transform: translateY(-5px);
+    }
+    .instagram:hover {
+        background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+        transform: translateY(-5px);
+    }
+    .whatsapp:hover {
+        background: rgb(112, 228, 112);
+        transform: translateY(-5px);
+    }
+    .twitter:hover {
+        background: #00acee;
+        transform: translateY(-5px);
+    }
+    /* -----------about_content_2 end--------- */
+    /* -----------about_content_3 start--------- */
+    .about_content_3 {
+        height: 550px;
+    }
+    /* -----------about_content_3 end--------- */
+}

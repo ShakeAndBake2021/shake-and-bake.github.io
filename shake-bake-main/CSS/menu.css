@@ -1,0 +1,110 @@
+* {
+    scroll-behavior: smooth;
+}
+
+.whole_nemu_container {
+    background: rgb(243, 173, 184);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0px 100px;
+}
+
+.carousel {
+    width: 530px;
+}
+
+.menu_container {
+    background: rgb(243, 173, 184);
+    padding-top: 30px;
+    height: 850px;
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-item {
+    overflow: hidden;
+    width: 530px;
+    height: 800px;
+}
+
+.carousel-item img {
+    height: 100%;
+    transition: transform .5s .2s ease;
+}
+
+.carousel-item:hover img {
+    transform: scale(1.1);
+}
+
+
+/* ---------------Mobile phones-------------- */
+
+@media(max-width: 768px) {
+    .whole_nemu_container {
+        background: rgb(243, 173, 184);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 0px 80px;
+    }
+    .carousel {
+        width: 430px;
+        /* border: 2px solid red; */
+    }
+    .menu_container {
+        background: rgb(243, 173, 184);
+        padding-top: 30px;
+        height: 700px;
+        display: flex;
+        justify-content: center;
+        /* border: 2px solid rgb(0, 255, 0); */
+    }
+    .carousel-item {
+        overflow: hidden;
+        width: 450px;
+        height: 650px;
+    }
+    .carousel-item img {
+        height: 100%;
+        transition: transform .5s .1s ease;
+    }
+    .carousel-item:hover img {
+        transform: scale(1.2);
+    }
+}
+
+
+/* ---------------Extra small Mobile phones-------------- */
+
+@media(max-width: 468px) {
+    .whole_nemu_container {
+        background: rgb(243, 173, 184);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 0px 80px;
+    }
+    .carousel {
+        width: 280px;
+    }
+    .menu_container {
+        background: rgb(243, 173, 184);
+        padding-top: 30px;
+        height: 425px;
+        display: flex;
+        justify-content: center;
+    }
+    .carousel-item {
+        overflow: hidden;
+        width: 275px;
+        height: 425px;
+    }
+    .carousel-item img {
+        height: 100%;
+        transition: transform .5s .2s ease;
+    }
+    .carousel-item:hover img {
+        transform: scale(1.4);
+    }
+}

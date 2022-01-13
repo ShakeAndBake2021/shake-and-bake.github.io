@@ -1,0 +1,589 @@
+* {
+    scroll-behavior: smooth;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(243, 173, 184);
+}
+
+
+/* contact_1 for 'contact form' and 'contact detail' logos */
+
+.contact_1 {
+    height: auto;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* contact form start */
+
+form {
+    width: 750px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 0px;
+    overflow: hidden;
+    margin-top: 50px;
+    /* border: 2px solid red; */
+}
+
+.contact_form p {
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.name_email_container,
+.date_numberOfPerson_container {
+    /* this container is name and email's mother div */
+    display: flex;
+    width: 100%;
+}
+
+.name_input,
+.email_input,
+.date_input,
+.numberOfPerson_input {
+    margin: 15px;
+    padding: 10px;
+    height: 45px;
+    width: 100%;
+    background: rgb(243, 173, 184);
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.subject_input {
+    margin: 15px;
+    padding: 10px;
+    height: 45px;
+    width: 95.5%;
+    background: rgb(243, 173, 184);
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+form textarea {
+    margin: 15px;
+    padding: 10px;
+    height: 120px;
+    resize: none;
+    background: rgb(243, 173, 184);
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid goldenrod;
+    background: white;
+    box-shadow: 5px 5px 10px #33323288;
+}
+
+textarea:focus {
+    outline: none;
+    border: 2px solid goldenrod;
+    background: white;
+    box-shadow: 5px 5px 10px #33323288;
+}
+
+.contact_form_btn {
+    height: 50px;
+    width: 150px;
+    margin: 15px;
+    border: 2px solid white;
+    border-radius: 30px;
+    background: rgb(243, 173, 184);
+    color: gray;
+    transition: all .2s ease;
+    box-shadow: 5px 5px 10px #33323288;
+    /* text-align: center; */
+}
+
+.contact_form_btn:active {
+    border: 2px solid goldenrod;
+    color: white;
+    transform: scale(.9);
+    box-shadow: 0px 0px 0.5px #33323288;
+}
+
+
+/* contact form end */
+
+
+/* contact detail with logo start */
+
+.contact_details {
+    /* this is the mother div of 'contact detail with logo' */
+    display: flex;
+    justify-content: center;
+}
+
+.contact_details_inner_1 {
+    display: flex;
+}
+
+.contact_details_inner_2 {
+    display: flex;
+}
+
+.sub_contact_details {
+    /* this is a common div for all logo and his detail */
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 80px 40px 0px;
+    padding-top: 20px;
+}
+
+.contact_details .icon {
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 40px;
+    background: white;
+    color: rgb(243, 173, 184);
+    box-shadow: 5px 5px 10px #33323288;
+}
+
+.contact_details i {
+    transform: translateY(45%);
+}
+
+.contact_details h3 {
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.contact_details p {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: normal;
+}
+
+
+/* contact detail with logo end */
+
+
+/* contacyt map start */
+
+.contact_map {
+    /* this div is the inner div of the contact_2 div */
+    margin-top: 0px;
+}
+
+.contact_map p {
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.mapouter {
+    height: 400px;
+    width: 600px;
+    border: 3px solid goldenrod;
+    box-shadow: 10px 5px 10px #33323288;
+    margin: 70px 0px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none!important;
+    height: 400px;
+    width: 600px;
+}
+
+
+/* contacyt map end */
+
+
+/* ---------------Tablets and iPads-------------- */
+
+@media(min-width:769px) and (max-width:1024px) {
+    /* contact_1 for 'contact form' and 'contact detail' logos */
+    .contact_1 {
+        height: 1150px;
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    /* contact detail with logo start */
+    .contact_details {
+        /* this is the mother div of 'contact detail with logo' */
+        display: flex;
+        justify-content: center;
+    }
+    .contact_details_inner_1 {
+        display: flex;
+        flex-direction: column;
+    }
+    .contact_details_inner_2 {
+        display: flex;
+        flex-direction: column;
+    }
+    .sub_contact_details {
+        /* this is a common div for all logo and his detail */
+        height: 220px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 80px 40px 0px;
+    }
+    .contact_details .icon {
+        height: 80px;
+        width: 80px;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 40px;
+        background: white;
+        color: rgb(243, 173, 184);
+        box-shadow: 5px 5px 10px #33323288;
+    }
+    .contact_details i {
+        transform: translateY(45%);
+    }
+    .contact_details h3 {
+        padding-top: 10px;
+        font-size: 20px;
+        font-weight: normal;
+    }
+    .contact_details p {
+        font-size: 14px;
+        font-weight: normal;
+    }
+    /* contact detail with logo end */
+}
+
+
+/* ---------------Mobile phones-------------- */
+
+@media(max-width: 768px) {
+    /* contact_1 for 'contact form' and 'contact detail' logos */
+    .contact_1 {
+        height: auto;
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    /* contact form start */
+    .contact_form {
+        /* border: 2px solid rgb(0, 255, 157);
+    display: block;
+    flex-direction: column;
+    align-items: center; */
+    }
+    form {
+        width: 450px;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
+    .name_email_container {
+        /* this container is 'name and email input's ' mother div */
+        display: flex;
+        flex-direction: column;
+        width: 94%;
+        margin-top: 70px;
+    }
+    .date_numberOfPerson_container {
+        display: flex;
+        flex-direction: column;
+        width: 94%;
+    }
+    .name_input,
+    .email_input {
+        margin: 15px;
+        padding: 10px;
+        height: 45px;
+        width: 100%;
+        background: rgb(243, 173, 184);
+        border: 2px solid white;
+        border-radius: 5px;
+    }
+    .subject_input {
+        margin: 15px;
+        padding: 10px;
+        height: 45px;
+        width: 94%;
+        background: rgb(243, 173, 184);
+        border: 2px solid white;
+        border-radius: 5px;
+    }
+    form textarea {
+        margin: 15px;
+        padding: 10px;
+        height: 120px;
+        resize: none;
+        background: rgb(243, 173, 184);
+        border: 2px solid white;
+        border-radius: 5px;
+    }
+    input:focus {
+        outline: none;
+        border: 2px solid goldenrod;
+        background: white;
+        box-shadow: 5px 5px 10px #33323288;
+    }
+    textarea:focus {
+        outline: none;
+        border: 2px solid goldenrod;
+        background: white;
+        box-shadow: 5px 5px 10px #33323288;
+    }
+    .contact_form_btn {
+        height: 50px;
+        width: 150px;
+        margin: 15px;
+        border: 2px solid white;
+        border-radius: 30px;
+        background: rgb(243, 173, 184);
+        color: gray;
+        transition: all .2s ease;
+        box-shadow: 5px 5px 10px #33323288;
+    }
+    .contact_form_btn:active {
+        border: 2px solid goldenrod;
+        color: white;
+        transform: scale(.9);
+        box-shadow: 0px 0px 0.5px #33323288;
+    }
+    /* contact form end */
+    /* contact detail with logo start */
+    .contact_details {
+        /* this is the mother div of 'contact detail with logo' */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .contact_details_inner_1 {
+        display: flex;
+        flex-direction: column;
+    }
+    .contact_details_inner_2 {
+        display: flex;
+        flex-direction: column;
+    }
+    .sub_contact_details {
+        /* this is a common div for all logo and his detail */
+        border: 2px solid white;
+        height: 220px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 80px 40px 0px;
+    }
+    .contact_details .icon {
+        height: 80px;
+        width: 80px;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 40px;
+        background: white;
+        color: rgb(243, 173, 184);
+        box-shadow: 5px 5px 10px #33323288;
+    }
+    .contact_details i {
+        transform: translateY(45%);
+    }
+    .contact_details h3 {
+        padding-top: 10px;
+        font-size: 20px;
+        font-weight: normal;
+    }
+    .contact_details p {
+        font-size: 14px;
+        font-weight: normal;
+    }
+    /* contact detail with logo end */
+    /* contacyt map start */
+    .contact_map {
+        /* this div is the inner div of the contact_2 div */
+        margin: 100px 0px;
+    }
+    .mapouter {
+        height: 300px;
+        width: 425px;
+        border: 3px solid goldenrod;
+        box-shadow: 10px 5px 10px #33323288;
+    }
+    .gmap_canvas {
+        overflow: hidden;
+        background: none!important;
+        height: 300px;
+        width: 425px;
+    }
+    /* contacyt map end */
+}
+
+
+/* ---------------Extra small Mobile phones-------------- */
+
+@media(max-width: 468px) {
+    /* contact_1 for 'contact form' and 'contact detail' logos */
+    .contact_1 {
+        height: auto;
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    /* contact form start */
+    form {
+        width: 275px;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
+    .name_email_container {
+        /* this container is 'name and email input's ' mother div */
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin-top: 70px;
+    }
+    .date_numberOfPerson_container {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+    .name_input,
+    .email_input {
+        margin: 15px;
+        padding: 10px;
+        height: 45px;
+        width: 100%;
+        background: rgb(243, 173, 184);
+        border: 2px solid white;
+        border-radius: 5px;
+    }
+    .subject_input {
+        margin: 15px;
+        padding: 10px;
+        height: 45px;
+        width: 90%;
+        background: rgb(243, 173, 184);
+        border: 2px solid white;
+        border-radius: 5px;
+    }
+    form textarea {
+        margin: 15px;
+        padding: 10px;
+        height: 120px;
+        resize: none;
+        background: rgb(243, 173, 184);
+        border: 2px solid white;
+        border-radius: 5px;
+    }
+    input:focus {
+        outline: none;
+        border: 2px solid goldenrod;
+        background: white;
+        box-shadow: 5px 5px 10px #33323288;
+    }
+    textarea:focus {
+        outline: none;
+        border: 2px solid goldenrod;
+        background: white;
+        box-shadow: 5px 5px 10px #33323288;
+    }
+    .contact_form_btn {
+        height: 50px;
+        width: 150px;
+        margin: 15px;
+        border: 2px solid white;
+        border-radius: 30px;
+        background: rgb(243, 173, 184);
+        color: gray;
+        transition: all .2s ease;
+        box-shadow: 5px 5px 10px #33323288;
+    }
+    .contact_form_btn:active {
+        border: 2px solid goldenrod;
+        color: white;
+        transform: scale(.9);
+        box-shadow: 0px 0px 0.5px #33323288;
+    }
+    /* contact form end */
+    /* contact detail with logo start */
+    .contact_details {
+        /* this is the mother div of 'contact detail with logo' */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .contact_details_inner_1 {
+        display: flex;
+        flex-direction: column;
+    }
+    .contact_details_inner_2 {
+        display: flex;
+        flex-direction: column;
+    }
+    .sub_contact_details {
+        /* this is a common div for all logo and his detail */
+        border: 2px solid white;
+        height: 220px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 80px 40px 0px;
+    }
+    .contact_details .icon {
+        height: 50px;
+        width: 50px;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 25px;
+        background: white;
+        color: rgb(243, 173, 184);
+        box-shadow: 5px 5px 10px #33323288;
+    }
+    .contact_details i {
+        transform: translateY(47%);
+    }
+    .contact_details h3 {
+        padding-top: 10px;
+        font-size: 20px;
+        font-weight: normal;
+    }
+    .contact_details p {
+        font-size: 14px;
+        font-weight: normal;
+    }
+    /* contact detail with logo end */
+    /* contacyt map start */
+    .contact_map {
+        /* this div is the inner div of the contact_2 div */
+        margin: 100px 0px;
+    }
+    .mapouter {
+        height: 250px;
+        width: 250px;
+        border: 3px solid goldenrod;
+        box-shadow: 5px 5px 10px #33323288;
+    }
+    .gmap_canvas {
+        overflow: hidden;
+        background: none!important;
+        height: 250px;
+        width: 250px;
+    }
+    /* contacyt map end */
+}
