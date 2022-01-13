@@ -124,6 +124,12 @@ footer {
     z-index: 100000000000;
 }
 
+.preloader h1,
+h4,
+h6 {
+    color: white;
+}
+
 .outside_image {
     display: flex;
     flex-direction: column;
@@ -157,10 +163,10 @@ footer {
 }
 
 .inside_image .center_img {
-    height: 68px;
+    height: 70px;
     border-radius: 50px;
     position: absolute;
-    top: 7%;
+    top: 35%;
     /* background-image: linear-gradient(115deg, white, black);
     animation: bg_color 15s ease-in infinite; */
 }
