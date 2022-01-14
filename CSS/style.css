@@ -130,6 +130,125 @@ h6 {
     color: white;
 }
 
+.l {
+    animation: loading-animation-l 7s ease-in-out infinite;
+}
+
+@keyframes loading-animation-l {
+    15% {
+        color: rgb(243, 173, 184);
+    }
+    25% {
+        color: rgb(243, 173, 184);
+    }
+    14%,
+    26% {
+        color: white;
+    }
+}
+
+.o {
+    animation: loading-animation-l 7s ease-in-out 1s infinite;
+}
+
+@keyframes loading-animation-o {
+    25% {
+        color: rgb(243, 173, 184);
+    }
+    35% {
+        color: rgb(243, 173, 184);
+    }
+    24%,
+    36% {
+        color: white;
+    }
+}
+
+.a {
+    animation: loading-animation-l 7s ease-in-out 2s infinite;
+}
+
+@keyframes loading-animation-a {
+    35% {
+        color: rgb(243, 173, 184);
+    }
+    45% {
+        color: rgb(243, 173, 184);
+    }
+    34%,
+    46% {
+        color: white;
+    }
+}
+
+.d {
+    animation: loading-animation-l 7s ease-in-out 3s infinite;
+}
+
+@keyframes loading-animation-d {
+    45% {
+        color: rgb(243, 173, 184);
+    }
+    55% {
+        color: rgb(243, 173, 184);
+    }
+    44%,
+    56% {
+        color: white;
+    }
+}
+
+.i {
+    animation: loading-animation-l 7s ease-in-out 4s infinite;
+}
+
+@keyframes loading-animation-i {
+    55% {
+        color: rgb(243, 173, 184);
+    }
+    65% {
+        color: rgb(243, 173, 184);
+    }
+    54%,
+    66% {
+        color: white;
+    }
+}
+
+.n {
+    animation: loading-animation-l 7s ease-in-out 5s infinite;
+}
+
+@keyframes loading-animation-n {
+    65% {
+        color: rgb(243, 173, 184);
+    }
+    75% {
+        color: rgb(243, 173, 184);
+    }
+    64%,
+    76% {
+        color: white;
+    }
+}
+
+.g {
+    animation: loading-animation-l 7s ease-in-out 6s infinite;
+}
+
+@keyframes loading-animation-g {
+    75% {
+        color: rgb(243, 173, 184);
+    }
+    85% {
+        color: rgb(243, 173, 184);
+    }
+    74%,
+    86% {
+        color: white;
+    }
+}
+
 .outside_image {
     display: flex;
     flex-direction: column;
