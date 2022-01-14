@@ -1218,7 +1218,7 @@ footer {
     .manubar_inner a {
         height: 100%;
         width: 100%;
-        padding: 16px 40%;
+        padding: 16px;
     }
     .manubar li:hover {
         background: rgba(0, 0, 0, 0.932);
