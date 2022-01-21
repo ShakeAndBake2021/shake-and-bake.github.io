@@ -1,3 +1,10 @@
+var preloader = document.querySelector('.preloader');
+window.addEventListener('load', function() {
+    preloader.parentElement.removeChild(preloader);
+    document.querySelector('.preloader-overflow').classList.remove('preloader-overflow')
+})
+
+
 var activePage = window.location.pathname;
 var navLinks = document.querySelectorAll('.nav-btn').
 forEach(link => {
