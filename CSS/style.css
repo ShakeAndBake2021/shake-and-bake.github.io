@@ -393,7 +393,7 @@ header {
 
 .manubar_inner li {
     width: 95px;
-    padding: 10px 10px;
+    padding: 10px 0px 0px;
     margin: 15px 2px 0px 2px;
     text-align: center;
 }
@@ -403,12 +403,14 @@ header {
     font-size: 20px;
     font-weight: bold;
     transition: all .3s ease-out;
+    padding: 10px 10px;
+    border-radius: 5px;
 }
 
 .manubar_inner a:hover {
-    color: rgb(250, 139, 155);
+    color: rgb(255, 255, 255);
+    background-color: rgba(207, 111, 126, 0.493);
     text-decoration: none;
-    animation: nav-li-underline 10s infinite ease-in-out;
 }
 
 .active-nav-underline {
@@ -478,6 +480,9 @@ header {
 .navbar_img {
     width: 100%;
     overflow: hidden;
+    /* background-color: rgba(243, 173, 184, 0.671); */
+    position: absolute;
+    top: 99px;
 }
 
 .header-text {
@@ -1527,6 +1532,12 @@ footer {
         background: rgba(243, 173, 184, 0.979);
         position: relative;
         display: none;
+    }
+    .navbar_img {
+        width: 100%;
+        overflow: hidden;
+        position: absolute;
+        top: 89px;
     }
     .bar_icon {
         display: block;

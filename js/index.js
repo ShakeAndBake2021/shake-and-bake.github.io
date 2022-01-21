@@ -5,9 +5,9 @@ window.addEventListener('load', function() {
 })
 
 var activePage = window.location.pathname;
-var navLinks = document.querySelectorAll('.nav-btn').
+var Links = document.querySelectorAll('.nav-btn').
 forEach(link => {
-    if (link.href.includes(activePage)) {
+    if (link.href == (activePage)) {
         link.classList.add('active-nav-underline')
     }
 })
