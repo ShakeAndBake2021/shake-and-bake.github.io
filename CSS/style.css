@@ -328,6 +328,7 @@ header {
 #navbar {
     display: flex;
     height: 100px;
+    background-color: #fff;
 }
 
 .brand_logo {
